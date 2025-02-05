@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">GEEK BYTE</div>
+            <nav id="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="prepare.html">Prepare</a></li>
+                    <li><a href="laboratory.html">Laboratory</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">Menu</button>
+        </div>
+    </header>
+
+    <main class="login-section">
+        <div class="login-container">
+            <h1>Login</h1>
+            <form method="post" id="login-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sanchith. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
