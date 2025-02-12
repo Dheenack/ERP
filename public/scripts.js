@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (signupButton) {
         signupButton.addEventListener('click', () => {
-            window.location.href = 'signup.html'; // Redirect to signup page
+            window.location.href = '/register'; // Redirect to signup page
         });
     }
 
@@ -64,9 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
             event.stopPropagation(); // Stop the event from propagating to document
         });
     }
-
+});
     // Handle signup form submission
-    const signupForm = document.getElementById('signup-form');
+   /* const signupForm = document.getElementById('signup-form');
     if (signupForm) {
         signupForm.addEventListener('submit', async (event) => {
             event.preventDefault();
@@ -122,4 +122,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-});
+});*/

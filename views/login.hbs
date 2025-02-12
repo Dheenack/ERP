@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+        <!--san page-->
+        <header>
+        <div class="navbar">
+            <div class="logo">GEEK BYTE</div>
+            <nav id="nav-links">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="prepare.html">Prepare</a></li>
+                    <li><a href="laboratory.html">Laboratory</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">Menu</button>
+        </div>
+    </header>
+
+    <main class="login-section">
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="/auth/login" method="post" id="login-form">
+                <label for="email">Username</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="/register">Register Now</a></p>
+        </div>
+    </main>
+    </div>
+</body>
+
+</html>
